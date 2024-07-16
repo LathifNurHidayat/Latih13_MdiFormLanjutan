@@ -194,7 +194,7 @@
             NamaText.Location = new Point(15, 133);
             NamaText.Name = "NamaText";
             NamaText.Size = new Size(341, 31);
-            NamaText.TabIndex = 5;
+            NamaText.TabIndex = 2;
             // 
             // JenisKelaminCombo
             // 

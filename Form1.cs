@@ -11,7 +11,7 @@ namespace Latih13_MdiFormLanjutan
 
         private void pegawaiToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            FormChil(new DataPegawai());
+            FormChil(new DataPegawai()); 
         }
 
         private void FormChil(Form formAnak)
