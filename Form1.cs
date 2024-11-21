@@ -7,6 +7,8 @@ namespace Latih13_MdiFormLanjutan
         public Form1()
         {
             InitializeComponent();
+            this.MaximizeBox = true;
+
         }
 
         private void pegawaiToolStripMenuItem_Click(object sender, EventArgs e)
