@@ -7,8 +7,11 @@
             InitializeComponent();
             ListData();
 
-            JenisKelaminCombo.Items.Add("Laki-laki");
-            JenisKelaminCombo.Items.Add("Perempuan");
+            List<string> gender = new List<string> { "Pilih Jenis Kelamin", "Laki-laki", "Perempuan" };
+            JenisKelaminCombo.DataSource = gender;
+      /*      JenisKelaminCombo.Items.Add("Laki-laki");
+            JenisKelaminCombo.Items.Add("Perempuan");*/
+
         }
 
         public void ListData()
